@@ -1,15 +1,15 @@
 ### Request.rest
-GET http://localhost:3001/
+DELETE http://localhost:3001/api/persons/1
 
 ### GET request to fetch all notes
-GET http://localhost:3001/api/notes/1
+GET http://localhost:3001/api/persons/8319
 
 ### POST request to create a new note
-POST http://localhost:3001/api/notes
+POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "content": "This is a new note.",
-    "important": true
+    "name": "This is a new note.",
+    "number": "23456765"
 }
 
