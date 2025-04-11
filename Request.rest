@@ -1,0 +1,15 @@
+### Request.rest
+GET http://localhost:3001/
+
+### GET request to fetch all notes
+GET http://localhost:3001/api/notes/1
+
+### POST request to create a new note
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "This is a new note.",
+    "important": true
+}
+
