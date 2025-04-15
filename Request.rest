@@ -2,7 +2,7 @@
 DELETE http://localhost:3001/api/persons/1
 
 ### GET request to fetch all notes
-GET http://localhost:3001/api/persons/8319
+GET http://localhost:3001/api/persons/2
 
 ### POST request to create a new note
 POST http://localhost:3001/api/persons
